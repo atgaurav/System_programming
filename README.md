@@ -27,4 +27,4 @@ getdiskusage.py /tmp
 2. Check if 'path exists'
    - Exception: _____ is not a directory
 3. Check if the path is not accessible
-   - Exception: _____ is not accessible			[_____ = value of variable passed while calling the script]# System_programming
+   - Exception: _____ is not accessible			[_____ = value of variable passed while calling the script]
