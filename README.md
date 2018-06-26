@@ -5,15 +5,15 @@
 	It runs for both windows and linux servers.
 
 Eg
-- getdiskusage.py /tmp
-- {
-- 	"files":
-- 	[
-- 		{"/tmp/foo", 1000},
-- 		{"/tmp/bar", 1000000},
-- 		{"/tmp/buzzz", 42},
-- 	],
-- }
+getdiskusage.py /tmp
+{
+ 	"files":
+	[
+ 		{"/tmp/foo", 1000},
+ 		{"/tmp/bar", 1000000},
+ 		{"/tmp/buzzz", 42},
+ 	],
+}
 
 ### Language	: Python 3
 
@@ -22,9 +22,9 @@ Eg
 - If python is set in the environment variables:	python getdiskusage.py /mnt
 
 ### Exceptions to look for:
-- 1. Check if only 1 argument is sent with the script name.
- - Exception: Please enter the correct number of arguments i.e. script name and mount path only
-- 2. Check if 'path exists'
- - Exception: _____ is not a directory
-- 3. Check if the path is not accessible
-  - Exception: _____ is not accessible			[_____ = value of variable passed while calling the script]# System_programming
+1. Check if only 1 argument is sent with the script name.
+   - Exception: Please enter the correct number of arguments i.e. script name and mount path only
+2. Check if 'path exists'
+   - Exception: _____ is not a directory
+3. Check if the path is not accessible
+   - Exception: _____ is not accessible			[_____ = value of variable passed while calling the script]# System_programming
